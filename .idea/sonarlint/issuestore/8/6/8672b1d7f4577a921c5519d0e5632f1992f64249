@@ -1,0 +1,12 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«½ğ
+d	java:S116"ORename this field "Prty" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉŞİÈ
+e	java:S116"PRename this field "CreDt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ò¢
+i	java:S116"TRename this field "MsgDefIdr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ×‚â
+n	java:S116	"TRename this field "BizMsgIdr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çê¿üÿÿÿÿ
+c	java:S116
+"NRename this field "Amt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó•±¬
+b	java:S116"MRename this field "To" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅˆÎê
+g	java:S116"MRename this field "Fr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¯Œ˜şÿÿÿÿ
+k	java:S116"QRename this field "BizSvc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º°¢°úÿÿÿÿ

@@ -1,0 +1,20 @@
+
+u
+java:S1192"_Define a constant instead of duplicating this literal "            <head:FinInstnId>
+" 3 times.(“ áû
+v
+java:S1192"`Define a constant instead of duplicating this literal "            </head:FinInstnId>
+" 3 times.(ëÆâª
+^
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.databind.ObjectMapper'.(´‘¨™
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(Ó şÏşÿÿÿÿ
+Q	java:S125."<This block of commented-out lines of code should be removed.(«êçê
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(µ†çûÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(øáòıúÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(µ†çûÿÿÿÿ
+Q	java:S1254"<This block of commented-out lines of code should be removed.(»ù¦½
+M	java:S1067"9Replace this use of System.out or System.err by a logger.(ªÌ¤d
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(ÆÎñº
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(äƒµ¢øÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ØÊ‹½øÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ

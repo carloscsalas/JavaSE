@@ -69,5 +69,25 @@ public class EjerciciosStringNum {
             }
         }
 
+        System.out.println("::::::::EXTRACT DOUBLE::::::::::");
+
+        Double douVal = 920210000.900;
+
+        Integer sumCero=0;
+        Boolean valCero = true;
+        for (int i = String.valueOf(douVal.intValue()).length(); i>0; i--){
+            if (valCero && Integer.parseInt(String.valueOf(String.valueOf(douVal.intValue()).charAt(i-1))) == 0){
+                sumCero++;
+            }else {
+                valCero = false;
+            }
+        }
+        System.out.println("NUMS DE CEROS::: "+sumCero);
+        if ((String.valueOf(douVal.intValue()).length() - sumCero) > String.valueOf(douVal.intValue()).length()){
+            System.out.println("INFRECUENTE");
+        }else{
+            System.out.println("FRECUENTE");
+        }
+
     }
 }

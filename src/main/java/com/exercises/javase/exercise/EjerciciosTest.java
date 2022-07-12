@@ -5,12 +5,16 @@ import java.util.List;
 
 public class EjerciciosTest {
 
+    private String resultString;
+
     public static void main(String[] args) {
         Double dou = Double.parseDouble("2.00000");
         System.out.println(dou);
 
         Integer num = 123;
         System.out.println(num++);
+
+
 
         System.out.println("::::::::::::::::::::::::");
 
@@ -34,7 +38,9 @@ public class EjerciciosTest {
 
     }
 
+    public void executeChange(){
 
+    }
 
 }
 

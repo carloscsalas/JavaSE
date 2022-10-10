@@ -1,5 +1,6 @@
 package com.exercises.javacurso.streams.exercises;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
@@ -24,6 +25,22 @@ public class FindEndRecord {
         System.out.println(":::::::::::::::::::");
 
         System.out.println("123456".substring(0,4));
+
+        String evCad = "1";
+        System.out.println("===size==");
+        System.out.println(perroList.size());
+        System.out.println("=///////////////////////====");
+        BigDecimal bigDc = BigDecimal.ZERO;
+        System.out.println(bigDc);
+        List<Integer> listInt = new ArrayList<>();
+        listInt.add(1);
+        listInt.add(3);
+        listInt.add(5);
+        String resStr="";
+        for (Integer in : listInt){
+            resStr=resStr.toString().concat("-").concat(in.toString());
+        }
+        System.out.println(resStr.substring(1));
     }
 }
 

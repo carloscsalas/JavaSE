@@ -1,8 +1,4 @@
 
-m
-=src/main/java/com/exercises/javacurso/lambda/ExcFunction.java,c\a\ca1e1309370b4df4e5cc48228cf14ab5513b01d5
-n
->src/main/java/com/exercises/javacurso/lambda/ExcPredicate.java,7\2\72ef4ae951f34181fa05a2e04267b05c5ced9108
 g
 7src/main/java/com/exercises/javase/pasexml/MainXml.java,2\e\2efc09aaa24da1ff0df0dd7b27f1b416ff862cac
 k

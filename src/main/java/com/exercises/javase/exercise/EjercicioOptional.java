@@ -1,6 +1,7 @@
 package com.exercises.javase.exercise;
 
 import java.util.List;
+import java.util.Optional;
 
 public class EjercicioOptional {
 
@@ -18,8 +19,15 @@ public class EjercicioOptional {
         }
         String num = "123456789";
         System.out.println(num.substring(1,num.length()-1));
-
-
+        System.out.println(":::::::::::::::::::::::::::::::::::::");
+        Optional<Integer> opt = Optional.empty();
+        if (opt.isPresent()){
+            System.out.println("EMPTY:::");
+        }
+        Optional<Integer> optval = Optional.of(2);
+        if (optval.isPresent()){
+            System.out.println("VAL_NUM::::");
+        }
 
     }
 

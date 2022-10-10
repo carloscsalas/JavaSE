@@ -58,6 +58,5 @@ public class Objetos {
         System.out.println("=================ORDENAR POR FECHA================");
         listCustomer.sort(Comparator.comparing(Customer::getFecha_nacimiento));
         listCustomer.forEach(customer -> System.out.println(customer));
-
     }
 }

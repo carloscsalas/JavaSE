@@ -1,6 +1,7 @@
 package com.exercises.javase.exercise;
 
 import com.exercises.javase.entity.Customer;
+import org.springframework.cglib.core.Local;
 import org.springframework.util.StringUtils;
 
 import javax.jws.soap.SOAPBinding;
@@ -31,13 +32,22 @@ public class Fecha {
 
         String dateLo =  localDate1.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         System.out.println("LocalDate pase DateTimeFormatter "+dateLo);
+        System.out.println("===============DDMMYY=================");
+
+        String dateLoDDMMYY =  LocalDate.now().format(DateTimeFormatter.ofPattern("ddMMyy"));
+        System.out.println("===DDMMYY=== "+dateLoDDMMYY);
 
         System.out.println("================================");
         LocalDate localDat = LocalDate.now();
         System.out.println(localDat);
         String date12 =  localDat.format(DateTimeFormatter.ofPattern("dd/MM/yy"));
         System.out.println("LocalDate now: "+date12);
-        System.out.println("-----------hora-------");
+        System.out.println(".........................");
+        String frmDate = "21/07/22";
+        LocalDate localDateSw = LocalDate.parse(frmDate, DateTimeFormatter.ofPattern("dd/MM/yy"));
+        System.out.println("-----localDateSw: "+localDateSw);
+
+        System.out.println("::::::::::hora:::::::::::::-");
         LocalDateTime localDateTime = LocalDateTime.now();
         System.out.println("LocalDateTime: "+localDateTime);
         System.out.println(localDateTime.getHour()+":"+localDateTime.getMinute());
@@ -89,7 +99,12 @@ public class Fecha {
         System.out.println(loc);
 
         System.out.println("::::::::::::=================::::::::::::::::::::");
-
+        LocalDate localDateNow = LocalDate.now();
+        System.out.println(localDateNow);
+        String dateTimeStr = LocalDateTime.now().format( DateTimeFormatter.ofPattern("yyyy-mm-dd HH:mm:ss"));
+        String strDateFor = dateTimeStr.replace("T"," ");
+        System.out.println(strDateFor);
+        System.out.println(LocalDateTime.now());
 
 
     }

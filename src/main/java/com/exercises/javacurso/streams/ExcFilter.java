@@ -2,7 +2,9 @@ package com.exercises.javacurso.streams;
 
 import com.exercises.javacurso.streams.models.Usuario;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ExcFilter {
@@ -38,6 +40,20 @@ public class ExcFilter {
 //                .findFirst().get();
 //
 //        System.out.println(obtUsuariov2);
+
+        System.out.println(":::::::::::===========::::::::::::::::");
+
+        List<String> listResult = Stream.of("Peto Torres", " ", "Pepa Campel", "Pipo Ostos","")
+                .filter(s -> s.contains("Pe"))
+                .peek(System.out::println)
+                .map(s -> s.concat("::GN"))
+                .collect(Collectors.toList());
+
+        System.out.println("-------------------");
+        listResult.forEach(System.out::println);
+
     }
+
+
 
 }

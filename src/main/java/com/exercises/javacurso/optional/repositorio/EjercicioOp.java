@@ -28,7 +28,9 @@ public class EjercicioOp {
         Boolean bol = Optional.ofNullable(objetoUno).flatMap(uno -> Optional.ofNullable(uno.getObjetoDos())).flatMap(dos -> Optional.ofNullable(dos.getObjetoTres())).flatMap(tres -> Optional.ofNullable(tres.getCodigo())).isPresent();
 
         if (bol){
-            System.out.println("44444dddddd");
+            System.out.println("::::::::::TRUE::::::::::::");
+        }else{
+            System.out.println("::::::::::FALSE::::::::::::");
         }
 
         System.out.println(":::::::::::::::::::::::::::::::::::");

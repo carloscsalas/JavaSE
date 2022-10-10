@@ -46,6 +46,17 @@ public class EjercicioSecuenciaFaltante {
         }
         listIntPag.forEach(System.out::println);
 
+        System.out.println("//////////////////////////////////////////////////////");
+        List<String> statementMiss = new ArrayList<>();
+        Integer n1 = 18;
+        Integer n2 = 20;
+
+        while (((n2-1)-n1) >0){
+            statementMiss.add(String.valueOf(n2-1));
+            n2--;
+        }
+
+
 
     }
 }

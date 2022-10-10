@@ -4,6 +4,7 @@ import com.exercises.javacurso.streams.models.Usuario;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class ExcAnyMatchAndCount {
@@ -47,6 +48,8 @@ public class ExcAnyMatchAndCount {
                 .peek(System.out::println)
                 .count();
         System.out.println("count = "+countn);
+
+
 
     }
 }

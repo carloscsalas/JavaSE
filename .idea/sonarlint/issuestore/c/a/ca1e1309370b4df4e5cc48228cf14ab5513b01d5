@@ -1,20 +1,0 @@
-
-q
-java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÂšØ¢
-Q	java:S125"<This block of commented-out lines of code should be removed.(„ş“
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ú¡ôİøÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¼¬ÿÊúÿÿÿÿ
-q
-java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ú¦¬ù
-Q	java:S125"<This block of commented-out lines of code should be removed.( Õ“…
-M	java:S106"9Replace this use of System.out or System.err by a logger.(‘Ğí
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÜË±üÿÿÿÿ
-w
-java:S4276"\Refactor this code to use the more specialised Functional Interface 'BinaryOperator<String>'(ÎßÒûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ï§ûÿÿÿÿ
-V	java:S125 "<This block of commented-out lines of code should be removed.(ÒĞš¦ÿÿÿÿÿ
-M	java:S106""9Replace this use of System.out or System.err by a logger.(Ïğ›/
-S	java:S106$"9Replace this use of System.out or System.err by a logger.(ìß¿íúÿÿÿÿ
-N	java:S1062"9Replace this use of System.out or System.err by a logger.(ºñØü
-<
-java:S1481)"&Remove this unused "i" local variable.(»ŸÜš

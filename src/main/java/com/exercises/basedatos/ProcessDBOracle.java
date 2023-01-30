@@ -12,7 +12,8 @@ public class ProcessDBOracle {
     {
         try {
             con = driverManagerGetConnection(
-                    "jdbc:oracle:thin:@137.184.120.243:1521:xe","corona","corona"
+//                    "jdbc:oracle:thin:@137.184.120.243:1521:xe","corona","corona"
+                    "jdbc:oracle:thin:@localhost:1521:orcl","pctx","pctx"
             );
         } catch (Exception e) {
             e.printStackTrace();

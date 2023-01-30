@@ -61,6 +61,16 @@ public class EjercicioOp {
             sD = sD.concat("0");
         }
 
-//        System.out.println("decimal"+n);
+        System.out.println(":::::::::::::::::::::::::::::::::");
+        ObjetoTres objetoTresb = new ObjetoTres();
+        objetoTresb.setCodigo(null);
+        ObjetoDos objetoDosb = new ObjetoDos();
+        objetoDosb.setObjetoTres(objetoTresb);
+
+        Boolean boolObj = Optional.ofNullable(objetoDosb).flatMap(obj2 -> Optional.ofNullable(obj2.getObjetoTres()))
+                .flatMap(objtres -> Optional.ofNullable(objtres.getCodigo())).isPresent();
+
+        System.out.println("::boolObj:: "+boolObj);
+
     }
 }

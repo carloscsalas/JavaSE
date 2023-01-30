@@ -34,7 +34,8 @@ public class Fecha {
         System.out.println("LocalDate pase DateTimeFormatter "+dateLo);
         System.out.println("===============DDMMYY=================");
 
-        String dateLoDDMMYY =  LocalDate.now().format(DateTimeFormatter.ofPattern("ddMMyy"));
+        String dateLoDDMMYY =  LocalDate.now().format(DateTimeFormatter.ofPattern("yyMMdd"));
+
         System.out.println("===DDMMYY=== "+dateLoDDMMYY);
 
         System.out.println("================================");
@@ -98,6 +99,8 @@ public class Fecha {
         LocalDate loc = LocalDate.of(Integer.parseInt("2021"),12,21);
         System.out.println(loc);
 
+        LocalDate localDateNew = LocalDate.parse(sDate, DateTimeFormatter.ofPattern("yyMMdd"));
+
         System.out.println("::::::::::::=================::::::::::::::::::::");
         LocalDate localDateNow = LocalDate.now();
         System.out.println(localDateNow);
@@ -105,6 +108,22 @@ public class Fecha {
         String strDateFor = dateTimeStr.replace("T"," ");
         System.out.println(strDateFor);
         System.out.println(LocalDateTime.now());
+
+        System.out.println("====================lastDate========================");
+        String dateCor = "20221018";
+        LocalDate localDateMod = LocalDate.of(Integer.parseInt(dateCor.substring(0,4)),
+                Integer.parseInt(dateCor.substring(4,6)),Integer.parseInt(dateCor.substring(6,8)));
+        LocalDate dateNow = LocalDate.of(2022,10,18);
+
+        Integer compVal = localDateMod.compareTo(dateNow);
+
+        String dateS = localDateMod.format(DateTimeFormatter.ofPattern("yyyyMMdd"));
+        System.out.println(dateS);
+
+        String dateyyMMdd = LocalDate.now().format(DateTimeFormatter.ofPattern("yyMMdd"));
+        System.out.println("dateyyMMdd:: "+dateyyMMdd);
+        System.out.println(compVal);
+        System.out.println(localDateMod);
 
 
     }

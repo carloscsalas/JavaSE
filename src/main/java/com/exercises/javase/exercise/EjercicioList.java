@@ -93,6 +93,45 @@ public class EjercicioList {
             System.out.println(":::ONE::: "+mov.getCodigo());
         }
 
+        System.out.println("::::::::::::::::::list ? :::::::::::::::::");
+        List<MovementStatement> listMov = getListMovementsOne();
+        List<?> listque = listMov;
+        for (Object obj: listque){
+            System.out.println("::OBJ:: "+obj);
+            MovementStatement movem = (MovementStatement)obj;
+            System.out.println("::OBJ:MOV: "+movem);
+            System.out.println("::OBJ:MOV:codigo: "+movem.getCodigo());
+        }
+
+        System.out.println(":::::::::::::LAST::::::::::");
+        List<MovementStatement> listMovLst = getListMovementsOne();
+        listMovLst.forEach(System.out::println);
+        System.out.println("SIZE:: "+listMovLst.size());
+        listMovLst.remove(listMovLst.size()-1);
+        listMovLst.forEach(System.out::println);
+
+        System.out.println("::::::::::::::::RRR::::::::");
+        List<String> listString = new ArrayList<>();
+        System.out.println("size list: "+listString.size());
+        listString.add("");
+        System.out.println("list:: "+listString);
+        if (listString.isEmpty()){
+            System.out.println("empty string list");
+        }
+        System.out.println("LENGTH:: "+listString.size());
+        if (listString.get(0).isEmpty()){
+            System.out.println("empty string");
+        }
+        String valStrNull = "";
+        if (valStrNull.isEmpty()){
+            System.out.println("sssss");
+        }
+
+
+        Integer valI = Integer.parseInt("0");
+        System.out.println(valI);
+        String maxNumRef = String.format("%01"+"d",0);
+        System.out.println(maxNumRef);
 
     }
 

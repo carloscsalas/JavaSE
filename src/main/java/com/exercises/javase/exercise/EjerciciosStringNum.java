@@ -89,6 +89,26 @@ public class EjerciciosStringNum {
             System.out.println("FRECUENTE");
         }
 
+        System.out.println(":::::::::::::::::::::::::::::::::::::::");
+
+        String snval = "11120101";
+        BigDecimal bibDec = new BigDecimal(snval);
+        System.out.println(bibDec);
+        String val = bibDec.toString();
+        System.out.println(":val:: "+val);
+//        String strVa = nval.toString();
+//        System.out.println(strVa);
+
+        String testEmp = "";
+
+        if (testEmp.isEmpty()){
+            System.out.println("---");
+//            System.out.println(testEmp.substring(1));
+        }
+
+        String valNum = "asdfgh";
+        String substr = valNum.substring(2);
+        System.out.println(substr);
 
     }
 }
